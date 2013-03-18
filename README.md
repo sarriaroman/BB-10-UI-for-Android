@@ -10,8 +10,11 @@ This project try to get the BB 10 UI ( or part of the UI in this stage ) to your
 ## How to use it
 
 1) Download the repo from GitHub and import it into your Eclipse workspace.
+
 2) Go to your project properties.
+
 3) In the Android section go to the bottom and add the bb10ui project in the Project Libraries section.
+
 4) Replace setContentView with (new BBeizer(this)).magic( R.layout.main );
 
 Some important things:
