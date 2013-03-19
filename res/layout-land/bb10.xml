@@ -4,13 +4,50 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_gradient"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/header_bar"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#06B1F2"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
     <RelativeLayout
         android:id="@+id/main_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/back_bar" >
+        android:layout_above="@+id/back_bar"
+        android:layout_below="@id/header_bar" >
 
     </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/top_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/header_bar"
+        android:background="@drawable/shadow" >
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
