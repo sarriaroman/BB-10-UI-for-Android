@@ -31,6 +31,27 @@ public void onCreate(Bundle savedInstanceState) {
 
 5) Enjoy!
 
+6) Extend your application style in styles.xml from @style/Theme.BB10Light to get components UI. Remember to set the style in your application manifest.
+* This is optional step.
+
+Example
+``` xml
+<!-- Application theme. -->
+<style name="AppTheme" parent="@style/Theme.BB10Light">
+</style>
+```
+
+- Make your app looks like Blackberry app just on Blackberry devices:
+
+``` java
+int layout = R.layout.main;
+if( android.os.Build.MANUFACTURER.equalsIgnoreCase("RIM") || android.os.Build.MANUFACTURER.equalsIgnoreCase("BLACKBERRY") ) {
+	(new BBeizer(this)).setContentView(layout);
+} else {
+	setContentView(layout);
+}
+```
+
 ## License
 
     Copyright 2013 Román A. Sarria

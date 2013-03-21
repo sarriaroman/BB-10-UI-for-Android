@@ -50,6 +50,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/bottom_shadow"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_above="@+id/back_bar"
@@ -89,11 +90,14 @@
 
                     <TextView
                         android:id="@+id/back_text"
-                        android:textColor="#FFFFFF"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Back" />
+                        android:layout_marginTop="3dp"
+                        android:text="@string/back_text"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 

@@ -209,15 +209,16 @@ public final class R {
     public static final class id {
         public static int alertTitle=0x7f080005;
         public static int back_bar=0x7f080012;
-        public static int back_button=0x7f080014;
-        public static int back_text=0x7f080016;
+        public static int back_button=0x7f080015;
+        public static int back_text=0x7f080017;
+        public static int bottom_shadow=0x7f080014;
         public static int contentPanel=0x7f080007;
         public static int customPanel=0x7f08000a;
         public static int header_bar=0x7f08000f;
         public static int header_text=0x7f080010;
-        public static int ic_previous=0x7f080015;
+        public static int ic_previous=0x7f080016;
         public static int icon=0x7f080004;
-        public static int imageView1=0x7f080017;
+        public static int imageView1=0x7f080018;
         public static int main_container=0x7f080011;
         public static int message=0x7f080009;
         public static int parentPanel=0x7f080000;
@@ -248,9 +249,9 @@ public final class R {
         public static int progress_small_holo=0x7f03000c;
     }
     public static final class string {
-        public static int app_name=0x7f060001;
-        public static int hello=0x7f060000;
-        public static int spinner_prompt=0x7f060002;
+        public static int app_name=0x7f060000;
+        public static int back_text=0x7f060002;
+        public static int spinner_prompt=0x7f060001;
     }
     public static final class style {
         public static int AlertDialogHoloDark=0x7f070003;

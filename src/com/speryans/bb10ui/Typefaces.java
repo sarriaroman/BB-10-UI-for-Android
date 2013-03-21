@@ -25,6 +25,12 @@ public class Typefaces {
 		}
 	}
 	
+	/**
+	 * Get BB Font to be used with setTypeface method.
+	 * 
+	 * @param c
+	 * @return
+	 */
 	public static Typeface getBBFont( Context c ) {
 		return Typefaces.get(c, "bbfont.ttf" );
 	}
