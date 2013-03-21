@@ -15,7 +15,7 @@ This project try to get the BB 10 UI ( or part of the UI in this stage ) to your
 
 3) In the Android section go to the bottom and add the bb10ui project in the Project Libraries section.
 
-4) Replace setContentView with (new BBeizer(this)).magic( R.layout.main );
+4) Replace setContentView with (new BBeizer(this)).setContentView( R.layout.main );
 
 Some important things:
 - BBeizer reference could be saved to activate or de-activate the title feature.
